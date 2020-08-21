@@ -8,7 +8,7 @@ function CalcBustStitches(){
 	//console.log(stitchgauge);
         
 
-	buststitches =(bustcirc + bodyease)* stitchgauge; 
+	buststitches =(bustcirc + bodyease)* stitchgauge;
 			
 	var outputBustStitches = buststitches; 
 
