@@ -1,0 +1,245 @@
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 1.6em;
+	margin:0;
+
+}
+
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+
+hr.dotted {
+	border-top: 3px dotted #bbb;
+}
+
+#main-header{
+	background-color: #C6B3F9;
+	color: #fff;
+}
+
+#purpose{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 10px;
+}
+
+#title{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 10px;
+}
+
+
+
+
+#simple_schematic{
+  max-width: 100%;
+  height: auto;
+
+}
+
+#Gauge{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#short_row_form {
+	color: #000;
+	font-size: 24px;
+	text-align: left;
+	line-height: 1.6em;
+	padding-top: 5px;
+
+}
+
+#measurements{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#complete_schematic{
+  max-width: 100%;
+  height: auto;
+
+}
+
+#stitch_counts{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+#stitches{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+
+#yoke_schematic{
+  max-width: 100%;
+  height: auto;
+
+}
+/*td, th {
+  width: 4rem;
+  height: 4rem;
+  float: none;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background: coral;
+  border-color: white;
+}
+body {
+  padding: 30px;
+}
+
+*/
+
+td, th {
+  	border: 1px solid #ddd;
+ 	padding: 8px;
+}
+
+
+th {
+	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: center;
+  	background-color: #C6B3F9;
+  	color: white;
+}
+
+#Ease{
+	color: #000;
+	font-size: 24px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+td, th {
+  	border: 1px solid #ddd;
+ 	padding: 8px;
+}
+
+
+th {
+	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: center;
+  	background-color: #C6B3F9;
+  	color: white;
+}
+
+#showcase{
+	color: #000;
+	font-size: 16px;
+	line-height: 1.6em;
+	padding-top: 30px;
+
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+/*#showcase{
+	background-image: url('../images/showcase.png');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center; */
+}
+
+#showcase{
+	color: #000;
+	font-size: 12px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float:left;
+	width: 70%;
+	padding:0 30px;
+	box-sizing: border-box;
+
+}
+#sidebar{
+	float: center;
+	width:30%;
+	background: #ecc9ff;
+	color:	#fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#sidebar2 {
+	float: center;
+	width:62%;
+	background: #ecc9ff;
+	color:	#fff;
+	padding: 10px;
+	box-sizing: border-box;
+
+
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+		
+	}
+
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
